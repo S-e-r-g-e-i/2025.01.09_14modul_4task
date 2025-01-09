@@ -13,7 +13,7 @@ from crud_functions import *
 
 """_______блок подключение бота______________________________________________________________________________________"""
 
-api = "7648874159:AAECVpuMkZJmamg6UhqB4RMnDVW9TyDskM4"  # необходимо скрывать, КТ (token to access the HTTP API).
+api = "..."  # необходимо скрывать, КТ (token to access the HTTP API).
 bot = Bot(token=api)
 dp = Dispatcher(bot, storage=MemoryStorage())
 
